@@ -68,14 +68,11 @@ rowPerc(table1)
 colPerc(table1) 
 ```
 
- 
+ LGBTQ it seems that they are doing much better and that nothing is effecting them. 
 
 
 
 ## Druggies
-```{r}
-
-```
 
 ```{r}
 table1 <- xtabs(~infected + DrugUser, data=FinalDat)
