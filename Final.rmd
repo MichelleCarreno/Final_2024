@@ -25,7 +25,17 @@ mutate(across(where(is.character), as.factor))
 A new  preventative vaccine (covid921) is under test in clinical trials. Given the nature of this vaccine it is suspected that the drug may exhibit different effectiveness across the variety of subpopulations tracked. Consider population subgroups by gender( guys and gals), drug use, and sexual orientation. Write a complete report that separately considers this drug for each subgroup and your recommendations as to whether people in the subgroup should take the vaccine. Structure your report in four sections each devoted to one of the four subgroups, use null and alternative hypothesis statements and correct statistical verbage when referencing p-values in conclusions.
 
 ## Males
+```{r}
+table1 <- xtabs(~treatment + sex, data=FinalDat)
+rowPerc(table1)
+colPerc(table1)
+```
 
+```{r}
+table1 <- xtabs(~infected + sex, data=FinalDat)
+rowPerc(table1)
+colPerc(table1)
+```
 
 ## Females
 
