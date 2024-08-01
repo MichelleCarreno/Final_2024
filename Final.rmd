@@ -68,7 +68,7 @@ rowPerc(table1)
 colPerc(table1) 
 ```
 
- LGBTQ it seems that they are doing much better and that nothing is effecting them. 
+ LGBTQ it seems that they are doing much better and that nothing is effecting them.   
 
 
 
@@ -79,6 +79,8 @@ table1 <- xtabs(~infected + DrugUser, data=FinalDat)
 rowPerc(table1)
 colPerc(table1)
 ```
+
+ Drug users are mostly liked to get infected by Covid but in this data shown it shows that they are fine and only 8.33 % of drugUsers got infected. 
 
 # Overall Results and Conclusions
 
