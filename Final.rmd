@@ -31,20 +31,57 @@ rowPerc(table1)
 colPerc(table1)
 ```
 
+
 ```{r}
 table1 <- xtabs(~infected + sex, data=FinalDat)
 rowPerc(table1)
 colPerc(table1)
 ```
 
+After Looking at the data that was given to me, the placebo was better for the men and the vaccine wasn't that good. In the Covid data it seemed to have effected females more than men even after they got the vaccine. 
+
+
 ## Females
+
+```{r}
+table1 <- xtabs(~treatment + sex, data=FinalDat)
+rowPerc(table1)
+colPerc(table1)
+```
+
+
+```{r}
+table1 <- xtabs(~infected + sex, data=FinalDat)
+rowPerc(table1)
+colPerc(table1)
+```
+
+ After Looking at the data that was given to me, the placebo was better for the men and the vaccine wasn't that good. In the Covid data it seemed to have effected females more than men even after they got the vaccine. 
+
 
 
 ## LGBTQ
 
+```{r}
+table1 <- xtabs(~infected + LGBTQ, data=FinalData)
+rowPerc(table1)
+colPerc(table1) 
+```
+
+ 
+
 
 
 ## Druggies
+```{r}
 
+```
+
+```{r}
+table1 <- xtabs(~infected + DrugUser, data=FinalDat)
+rowPerc(table1)
+colPerc(table1)
+```
 
 # Overall Results and Conclusions
+
